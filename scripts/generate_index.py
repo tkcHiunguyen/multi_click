@@ -59,7 +59,7 @@ def generate_index(skills_dir, output_file):
             
             skills.append(skill_info)
 
-    skills.sort(key=lambda x: x["name"])
+    skills.sort(key=lambda x: x["name"].lower())
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(skills, f, indent=2)

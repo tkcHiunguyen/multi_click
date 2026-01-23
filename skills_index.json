@@ -18,190 +18,16 @@
     "description": "\"Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing depth to web experiences. Use when: 3D website, three.js, WebGL, react three fiber, 3D experience.\""
   },
   {
-    "id": "api-fuzzing-bug-bounty",
-    "path": "skills/api-fuzzing-bug-bounty",
-    "name": "API Fuzzing for Bug Bounty",
-    "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques."
-  },
-  {
-    "id": "aws-penetration-testing",
-    "path": "skills/aws-penetration-testing",
-    "name": "AWS Penetration Testing",
-    "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment."
+    "id": "ab-test-setup",
+    "path": "skills/ab-test-setup",
+    "name": "ab-test-setup",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking."
   },
   {
     "id": "active-directory-attacks",
     "path": "skills/active-directory-attacks",
     "name": "Active Directory Attacks",
     "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing."
-  },
-  {
-    "id": "broken-authentication",
-    "path": "skills/broken-authentication",
-    "name": "Broken Authentication Testing",
-    "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications."
-  },
-  {
-    "id": "burp-suite-testing",
-    "path": "skills/burp-suite-testing",
-    "name": "Burp Suite Web Application Testing",
-    "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing."
-  },
-  {
-    "id": "claude-code-guide",
-    "path": "skills/claude-code-guide",
-    "name": "Claude Code Guide",
-    "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent."
-  },
-  {
-    "id": "cloud-penetration-testing",
-    "path": "skills/cloud-penetration-testing",
-    "name": "Cloud Penetration Testing",
-    "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms."
-  },
-  {
-    "id": "xss-html-injection",
-    "path": "skills/xss-html-injection",
-    "name": "Cross-Site Scripting and HTML Injection Testing",
-    "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications."
-  },
-  {
-    "id": "ethical-hacking-methodology",
-    "path": "skills/ethical-hacking-methodology",
-    "name": "Ethical Hacking Methodology",
-    "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques."
-  },
-  {
-    "id": "file-path-traversal",
-    "path": "skills/file-path-traversal",
-    "name": "File Path Traversal Testing",
-    "description": "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies."
-  },
-  {
-    "id": "html-injection-testing",
-    "path": "skills/html-injection-testing",
-    "name": "HTML Injection Testing",
-    "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies."
-  },
-  {
-    "id": "idor-testing",
-    "path": "skills/idor-testing",
-    "name": "IDOR Vulnerability Testing",
-    "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications."
-  },
-  {
-    "id": "linux-privilege-escalation",
-    "path": "skills/linux-privilege-escalation",
-    "name": "Linux Privilege Escalation",
-    "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems."
-  },
-  {
-    "id": "linux-shell-scripting",
-    "path": "skills/linux-shell-scripting",
-    "name": "Linux Production Shell Scripts",
-    "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration."
-  },
-  {
-    "id": "metasploit-framework",
-    "path": "skills/metasploit-framework",
-    "name": "Metasploit Framework",
-    "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments."
-  },
-  {
-    "id": "network-101",
-    "path": "skills/network-101",
-    "name": "Network 101",
-    "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs."
-  },
-  {
-    "id": "pentest-checklist",
-    "path": "skills/pentest-checklist",
-    "name": "Pentest Checklist",
-    "description": "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements."
-  },
-  {
-    "id": "pentest-commands",
-    "path": "skills/pentest-commands",
-    "name": "Pentest Commands",
-    "description": "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references."
-  },
-  {
-    "id": "privilege-escalation-methods",
-    "path": "skills/privilege-escalation-methods",
-    "name": "Privilege Escalation Methods",
-    "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems."
-  },
-  {
-    "id": "red-team-tools",
-    "path": "skills/red-team-tools",
-    "name": "Red Team Tools and Methodology",
-    "description": "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters."
-  },
-  {
-    "id": "smtp-penetration-testing",
-    "path": "skills/smtp-penetration-testing",
-    "name": "SMTP Penetration Testing",
-    "description": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security."
-  },
-  {
-    "id": "sql-injection-testing",
-    "path": "skills/sql-injection-testing",
-    "name": "SQL Injection Testing",
-    "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems."
-  },
-  {
-    "id": "sqlmap-database-pentesting",
-    "path": "skills/sqlmap-database-pentesting",
-    "name": "SQLMap Database Penetration Testing",
-    "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities."
-  },
-  {
-    "id": "ssh-penetration-testing",
-    "path": "skills/ssh-penetration-testing",
-    "name": "SSH Penetration Testing",
-    "description": "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques."
-  },
-  {
-    "id": "scanning-tools",
-    "path": "skills/scanning-tools",
-    "name": "Security Scanning Tools",
-    "description": "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies."
-  },
-  {
-    "id": "shodan-reconnaissance",
-    "path": "skills/shodan-reconnaissance",
-    "name": "Shodan Reconnaissance and Pentesting",
-    "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance."
-  },
-  {
-    "id": "top-web-vulnerabilities",
-    "path": "skills/top-web-vulnerabilities",
-    "name": "Top 100 Web Vulnerabilities Reference",
-    "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories."
-  },
-  {
-    "id": "windows-privilege-escalation",
-    "path": "skills/windows-privilege-escalation",
-    "name": "Windows Privilege Escalation",
-    "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments."
-  },
-  {
-    "id": "wireshark-analysis",
-    "path": "skills/wireshark-analysis",
-    "name": "Wireshark Network Traffic Analysis",
-    "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark."
-  },
-  {
-    "id": "wordpress-penetration-testing",
-    "path": "skills/wordpress-penetration-testing",
-    "name": "WordPress Penetration Testing",
-    "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies."
-  },
-  {
-    "id": "ab-test-setup",
-    "path": "skills/ab-test-setup",
-    "name": "ab-test-setup",
-    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" or \"hypothesis.\" For tracking implementation, see analytics-tracking."
   },
   {
     "id": "address-github-comments",
@@ -276,6 +102,12 @@
     "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" or \"tracking plan.\" For A/B test measurement, see ab-test-setup."
   },
   {
+    "id": "api-fuzzing-bug-bounty",
+    "path": "skills/api-fuzzing-bug-bounty",
+    "name": "API Fuzzing for Bug Bounty",
+    "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques."
+  },
+  {
     "id": "api-documentation-generator",
     "path": "skills/api-documentation-generator",
     "name": "api-documentation-generator",
@@ -286,6 +118,12 @@
     "path": "skills/api-patterns",
     "name": "api-patterns",
     "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination."
+  },
+  {
+    "id": "api-security-best-practices",
+    "path": "skills/api-security-best-practices",
+    "name": "api-security-best-practices",
+    "description": "\"Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities\""
   },
   {
     "id": "app-builder",
@@ -316,6 +154,12 @@
     "path": "skills/autonomous-agents",
     "name": "autonomous-agents",
     "description": "\"Autonomous agents are AI systems that can independently decompose goals, plan actions, execute tools, and self-correct without constant human guidance. The challenge isn't making them capable - it's making them reliable. Every extra decision multiplies failure probability.  This skill covers agent loops (ReAct, Plan-Execute), goal decomposition, reflection patterns, and production reliability. Key insight: compounding error rates kill autonomous agents. A 95% success rate per step drops to 60% b\""
+  },
+  {
+    "id": "aws-penetration-testing",
+    "path": "skills/aws-penetration-testing",
+    "name": "AWS Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing\", \"metadata SSRF\", \"Lambda exploitation\", or needs guidance on Amazon Web Services security assessment."
   },
   {
     "id": "aws-serverless",
@@ -378,6 +222,12 @@
     "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
   },
   {
+    "id": "broken-authentication",
+    "path": "skills/broken-authentication",
+    "name": "Broken Authentication Testing",
+    "description": "This skill should be used when the user asks to \"test for broken authentication vulnerabilities\", \"assess session management security\", \"perform credential stuffing tests\", \"evaluate password policies\", \"test for session fixation\", or \"identify authentication bypass flaws\". It provides comprehensive techniques for identifying authentication and session management weaknesses in web applications."
+  },
+  {
     "id": "browser-automation",
     "path": "skills/browser-automation",
     "name": "browser-automation",
@@ -400,6 +250,12 @@
     "path": "skills/bun-development",
     "name": "bun-development",
     "description": "\"Modern JavaScript/TypeScript development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js. Use when working with Bun, optimizing JS/TS development speed, or migrating from Node.js to Bun.\""
+  },
+  {
+    "id": "burp-suite-testing",
+    "path": "skills/burp-suite-testing",
+    "name": "Burp Suite Web Application Testing",
+    "description": "This skill should be used when the user asks to \"intercept HTTP traffic\", \"modify web requests\", \"use Burp Suite for testing\", \"perform web vulnerability scanning\", \"test with Burp Repeater\", \"analyze HTTP history\", or \"configure proxy for web testing\". It provides comprehensive guidance for using Burp Suite's core features for web application security testing."
   },
   {
     "id": "canvas-design",
@@ -426,6 +282,12 @@
     "description": "Development skill from everything-claude-code"
   },
   {
+    "id": "claude-code-guide",
+    "path": "skills/claude-code-guide",
+    "name": "Claude Code Guide",
+    "description": "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \"Thinking\" keywords, debugging techniques, and best practices for interacting with the agent."
+  },
+  {
     "id": "clean-code",
     "path": "skills/clean-code",
     "name": "clean-code",
@@ -444,10 +306,16 @@
     "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
   },
   {
+    "id": "cloud-penetration-testing",
+    "path": "skills/cloud-penetration-testing",
+    "name": "Cloud Penetration Testing",
+    "description": "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfigurations\", \"test O365 security\", \"extract secrets from cloud environments\", or \"audit cloud infrastructure\". It provides comprehensive techniques for security assessment across major cloud platforms."
+  },
+  {
     "id": "code-review-checklist",
     "path": "skills/code-review-checklist",
     "name": "code-review-checklist",
-    "description": "Code review guidelines covering code quality, security, and best practices."
+    "description": "\"Comprehensive checklist for conducting thorough code reviews covering functionality, security, performance, and maintainability\""
   },
   {
     "id": "cc-skill-coding-standards",
@@ -516,6 +384,12 @@
     "description": "\"Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies. Covers agent design with roles and goals, task definition, crew orchestration, process types (sequential, hierarchical, parallel), memory systems, and flows for complex workflows. Essential for building collaborative AI agent teams. Use when: crewai, multi-agent team, agent roles, crew of agents, role-based agents.\""
   },
   {
+    "id": "xss-html-injection",
+    "path": "skills/xss-html-injection",
+    "name": "Cross-Site Scripting and HTML Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications."
+  },
+  {
     "id": "claude-d3js-skill",
     "path": "skills/claude-d3js-skill",
     "name": "d3-viz",
@@ -582,10 +456,28 @@
     "description": "\"Email has the highest ROI of any marketing channel. $36 for every $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization, landing in spam folders.  This skill covers transactional email that works, marketing automation that converts, deliverability that reaches inboxes, and the infrastructure decisions that scale. Use when: keywords, file_patterns, code_patterns.\""
   },
   {
+    "id": "environment-setup-guide",
+    "path": "skills/environment-setup-guide",
+    "name": "environment-setup-guide",
+    "description": "\"Guide developers through setting up development environments with proper tools, dependencies, and configurations\""
+  },
+  {
+    "id": "ethical-hacking-methodology",
+    "path": "skills/ethical-hacking-methodology",
+    "name": "Ethical Hacking Methodology",
+    "description": "This skill should be used when the user asks to \"learn ethical hacking\", \"understand penetration testing lifecycle\", \"perform reconnaissance\", \"conduct security scanning\", \"exploit vulnerabilities\", or \"write penetration test reports\". It provides comprehensive ethical hacking methodology and techniques."
+  },
+  {
     "id": "executing-plans",
     "path": "skills/executing-plans",
     "name": "executing-plans",
     "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+  },
+  {
+    "id": "file-path-traversal",
+    "path": "skills/file-path-traversal",
+    "name": "File Path Traversal Testing",
+    "description": "This skill should be used when the user asks to \"test for directory traversal\", \"exploit path traversal vulnerabilities\", \"read arbitrary files through web applications\", \"find LFI vulnerabilities\", or \"access files outside web root\". It provides comprehensive file path traversal attack and testing methodologies."
   },
   {
     "id": "file-organizer",
@@ -696,6 +588,12 @@
     "description": "\"GraphQL gives clients exactly the data they need - no more, no less. One endpoint, typed schema, introspection. But the flexibility that makes it powerful also makes it dangerous. Without proper controls, clients can craft queries that bring down your server.  This skill covers schema design, resolvers, DataLoader for N+1 prevention, federation for microservices, and client integration with Apollo/urql. Key insight: GraphQL is a contract. The schema is the API documentation. Design it carefully.\""
   },
   {
+    "id": "html-injection-testing",
+    "path": "skills/html-injection-testing",
+    "name": "HTML Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for HTML injection\", \"inject HTML into web pages\", \"perform HTML injection attacks\", \"deface web applications\", or \"test content injection vulnerabilities\". It provides comprehensive HTML injection attack techniques and testing methodologies."
+  },
+  {
     "id": "hubspot-integration",
     "path": "skills/hubspot-integration",
     "name": "hubspot-integration",
@@ -706,6 +604,12 @@
     "path": "skills/i18n-localization",
     "name": "i18n-localization",
     "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support."
+  },
+  {
+    "id": "idor-testing",
+    "path": "skills/idor-testing",
+    "name": "IDOR Vulnerability Testing",
+    "description": "This skill should be used when the user asks to \"test for insecure direct object references,\" \"find IDOR vulnerabilities,\" \"exploit broken access control,\" \"enumerate user IDs or object references,\" or \"bypass authorization to access other users' data.\" It provides comprehensive guidance for detecting, exploiting, and remediating IDOR vulnerabilities in web applications."
   },
   {
     "id": "inngest",
@@ -768,6 +672,18 @@
     "description": "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, validate, types, static analysis."
   },
   {
+    "id": "linux-privilege-escalation",
+    "path": "skills/linux-privilege-escalation",
+    "name": "Linux Privilege Escalation",
+    "description": "This skill should be used when the user asks to \"escalate privileges on Linux\", \"find privesc vectors on Linux systems\", \"exploit sudo misconfigurations\", \"abuse SUID binaries\", \"exploit cron jobs for root access\", \"enumerate Linux systems for privilege escalation\", or \"gain root access from low-privilege shell\". It provides comprehensive techniques for identifying and exploiting privilege escalation paths on Linux systems."
+  },
+  {
+    "id": "linux-shell-scripting",
+    "path": "skills/linux-shell-scripting",
+    "name": "Linux Production Shell Scripts",
+    "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration."
+  },
+  {
     "id": "llm-app-patterns",
     "path": "skills/llm-app-patterns",
     "name": "llm-app-patterns",
@@ -796,6 +712,12 @@
     "path": "skills/mcp-builder",
     "name": "mcp-builder",
     "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
+  },
+  {
+    "id": "metasploit-framework",
+    "path": "skills/metasploit-framework",
+    "name": "Metasploit Framework",
+    "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments."
   },
   {
     "id": "micro-saas-launcher",
@@ -838,6 +760,12 @@
     "path": "skills/nestjs-expert",
     "name": "nestjs-expert",
     "description": "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js authentication. Use PROACTIVELY for any Nest.js application issues including architecture decisions, testing strategies, performance optimization, or debugging complex dependency injection problems. If a specialized expert is a better fit, I will recommend switching and stop."
+  },
+  {
+    "id": "network-101",
+    "path": "skills/network-101",
+    "name": "Network 101",
+    "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs."
   },
   {
     "id": "nextjs-best-practices",
@@ -912,6 +840,18 @@
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale."
   },
   {
+    "id": "pentest-checklist",
+    "path": "skills/pentest-checklist",
+    "name": "Pentest Checklist",
+    "description": "This skill should be used when the user asks to \"plan a penetration test\", \"create a security assessment checklist\", \"prepare for penetration testing\", \"define pentest scope\", \"follow security testing best practices\", or needs a structured methodology for penetration testing engagements."
+  },
+  {
+    "id": "pentest-commands",
+    "path": "skills/pentest-commands",
+    "name": "Pentest Commands",
+    "description": "This skill should be used when the user asks to \"run pentest commands\", \"scan with nmap\", \"use metasploit exploits\", \"crack passwords with hydra or john\", \"scan web vulnerabilities with nikto\", \"enumerate networks\", or needs essential penetration testing command references."
+  },
+  {
     "id": "performance-profiling",
     "path": "skills/performance-profiling",
     "name": "performance-profiling",
@@ -976,6 +916,12 @@
     "path": "skills/prisma-expert",
     "name": "prisma-expert",
     "description": "Prisma ORM expert for schema design, migrations, query optimization, relations modeling, and database operations. Use PROACTIVELY for Prisma schema issues, migration problems, query performance, relation design, or database connection issues."
+  },
+  {
+    "id": "privilege-escalation-methods",
+    "path": "skills/privilege-escalation-methods",
+    "name": "Privilege Escalation Methods",
+    "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems."
   },
   {
     "id": "product-manager-toolkit",
@@ -1050,6 +996,12 @@
     "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
   },
   {
+    "id": "red-team-tools",
+    "path": "skills/red-team-tools",
+    "name": "Red Team Tools and Methodology",
+    "description": "This skill should be used when the user asks to \"follow red team methodology\", \"perform bug bounty hunting\", \"automate reconnaissance\", \"hunt for XSS vulnerabilities\", \"enumerate subdomains\", or needs security researcher techniques and tool configurations from top bug bounty hunters."
+  },
+  {
     "id": "red-team-tactics",
     "path": "skills/red-team-tactics",
     "name": "red-team-tactics",
@@ -1098,6 +1050,12 @@
     "description": "\"Expert in building immersive scroll-driven experiences - parallax storytelling, scroll animations, interactive narratives, and cinematic web experiences. Like NY Times interactives, Apple product pages, and award-winning web experiences. Makes websites feel like experiences, not just pages. Use when: scroll animation, parallax, scroll storytelling, interactive story, cinematic website.\""
   },
   {
+    "id": "scanning-tools",
+    "path": "skills/scanning-tools",
+    "name": "Security Scanning Tools",
+    "description": "This skill should be used when the user asks to \"perform vulnerability scanning\", \"scan networks for open ports\", \"assess web application security\", \"scan wireless networks\", \"detect malware\", \"check cloud security\", or \"evaluate system compliance\". It provides comprehensive guidance on security scanning tools and methodologies."
+  },
+  {
     "id": "cc-skill-security-review",
     "path": "skills/cc-skill-security-review",
     "name": "security-review",
@@ -1138,6 +1096,12 @@
     "path": "skills/server-management",
     "name": "server-management",
     "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands."
+  },
+  {
+    "id": "shodan-reconnaissance",
+    "path": "skills/shodan-reconnaissance",
+    "name": "Shodan Reconnaissance and Pentesting",
+    "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance."
   },
   {
     "id": "shopify-apps",
@@ -1182,6 +1146,12 @@
     "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
   },
   {
+    "id": "smtp-penetration-testing",
+    "path": "skills/smtp-penetration-testing",
+    "name": "SMTP Penetration Testing",
+    "description": "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email credentials\", or \"assess mail server security\". It provides comprehensive techniques for testing SMTP server security."
+  },
+  {
     "id": "social-content",
     "path": "skills/social-content",
     "name": "social-content",
@@ -1194,6 +1164,24 @@
     "description": "Guide for quality focused software architecture. This skill should be used when users want to write code, design architecture, analyze code, in any case that relates to software development."
   },
   {
+    "id": "sql-injection-testing",
+    "path": "skills/sql-injection-testing",
+    "name": "SQL Injection Testing",
+    "description": "This skill should be used when the user asks to \"test for SQL injection vulnerabilities\", \"perform SQLi attacks\", \"bypass authentication using SQL injection\", \"extract database information through injection\", \"detect SQL injection flaws\", or \"exploit database query vulnerabilities\". It provides comprehensive techniques for identifying, exploiting, and understanding SQL injection attack vectors across different database systems."
+  },
+  {
+    "id": "sqlmap-database-pentesting",
+    "path": "skills/sqlmap-database-pentesting",
+    "name": "SQLMap Database Penetration Testing",
+    "description": "This skill should be used when the user asks to \"automate SQL injection testing,\" \"enumerate database structure,\" \"extract database credentials using sqlmap,\" \"dump tables and columns from a vulnerable database,\" or \"perform automated database penetration testing.\" It provides comprehensive guidance for using SQLMap to detect and exploit SQL injection vulnerabilities."
+  },
+  {
+    "id": "ssh-penetration-testing",
+    "path": "skills/ssh-penetration-testing",
+    "name": "SSH Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest SSH services\", \"enumerate SSH configurations\", \"brute force SSH credentials\", \"exploit SSH vulnerabilities\", \"perform SSH tunneling\", or \"audit SSH security\". It provides comprehensive SSH penetration testing methodologies and techniques."
+  },
+  {
     "id": "stripe-integration",
     "path": "skills/stripe-integration",
     "name": "stripe-integration",
@@ -1204,6 +1192,12 @@
     "path": "skills/subagent-driven-development",
     "name": "subagent-driven-development",
     "description": "Use when executing implementation plans with independent tasks in the current session"
+  },
+  {
+    "id": "postgres-best-practices",
+    "path": "skills/postgres-best-practices",
+    "name": "supabase-postgres-best-practices",
+    "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
   },
   {
     "id": "systematic-debugging",
@@ -1264,6 +1258,12 @@
     "path": "skills/theme-factory",
     "name": "theme-factory",
     "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly."
+  },
+  {
+    "id": "top-web-vulnerabilities",
+    "path": "skills/top-web-vulnerabilities",
+    "name": "Top 100 Web Vulnerabilities Reference",
+    "description": "This skill should be used when the user asks to \"identify web application vulnerabilities\", \"explain common security flaws\", \"understand vulnerability categories\", \"learn about injection attacks\", \"review access control weaknesses\", \"analyze API security issues\", \"assess security misconfigurations\", \"understand client-side vulnerabilities\", \"examine mobile and IoT security flaws\", or \"reference the OWASP-aligned vulnerability taxonomy\". Use this skill to provide comprehensive vulnerability definitions, root causes, impacts, and mitigation strategies across all major web security categories."
   },
   {
     "id": "trigger-dev",
@@ -1374,10 +1374,34 @@
     "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA."
   },
   {
+    "id": "web-performance-optimization",
+    "path": "skills/web-performance-optimization",
+    "name": "web-performance-optimization",
+    "description": "\"Optimize website and web application performance including loading speed, Core Web Vitals, bundle size, caching strategies, and runtime performance\""
+  },
+  {
     "id": "webapp-testing",
     "path": "skills/webapp-testing",
     "name": "webapp-testing",
     "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+  },
+  {
+    "id": "windows-privilege-escalation",
+    "path": "skills/windows-privilege-escalation",
+    "name": "Windows Privilege Escalation",
+    "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments."
+  },
+  {
+    "id": "wireshark-analysis",
+    "path": "skills/wireshark-analysis",
+    "name": "Wireshark Network Traffic Analysis",
+    "description": "This skill should be used when the user asks to \"analyze network traffic with Wireshark\", \"capture packets for troubleshooting\", \"filter PCAP files\", \"follow TCP/UDP streams\", \"detect network anomalies\", \"investigate suspicious traffic\", or \"perform protocol analysis\". It provides comprehensive techniques for network packet capture, filtering, and analysis using Wireshark."
+  },
+  {
+    "id": "wordpress-penetration-testing",
+    "path": "skills/wordpress-penetration-testing",
+    "name": "WordPress Penetration Testing",
+    "description": "This skill should be used when the user asks to \"pentest WordPress sites\", \"scan WordPress for vulnerabilities\", \"enumerate WordPress users, themes, or plugins\", \"exploit WordPress vulnerabilities\", or \"use WPScan\". It provides comprehensive WordPress security assessment methodologies."
   },
   {
     "id": "workflow-automation",

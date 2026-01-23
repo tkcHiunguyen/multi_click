@@ -7,7 +7,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [2.9.0] - 2026-01-22 - "Automation & Maintenance"
+---
+
+## [2.11.0] - 2026-01-23 - "Postgres Performance"
+
+### Added
+
+- **New Skill**:
+  - `postgres-best-practices`: Comprehensive Supabase PostgreSQL performance optimization guide with 30+ rules covering query performance, connection management, RLS security, schema design, locking, and monitoring.
+
+### Changed
+
+- **Official Sources**: Added [supabase/agent-skills](https://github.com/supabase/agent-skills) to Credits & Sources.
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry (Total: 239 skills).
+
+### Contributors
+
+- [@ar27111994](https://github.com/ar27111994) - PR #19
+
+---
+
+## [2.10.0] - 2026-01-22 - "Developer Excellence"
+
+### Added
+
+- **New Skills**:
+  - `api-security-best-practices`: Comprehensive guide for secure API design and defense.
+  - `environment-setup-guide`: Systematic approach to project onboarding and tool configuration.
+  - `web-performance-optimization`: Methodologies for optimizing Core Web Vitals and loading speed.
+
+### Changed
+
+- **Enhanced Skill**:
+  - `code-review-checklist`: Replaced with a much more detailed and systematic version covering functionality, security, and quality.
+
+### Fixed
+
+- **Index & Registry**: Updated `skills_index.json` and `README.md` registry (Total: 238 skills).
 
 ### Added
 
